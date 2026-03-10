@@ -56,6 +56,7 @@ x tping --heatmap bing.com
 |---------|-------------|
 | `x tping <host>` | Ping host on port 80 (default) |
 | `x tping <host>:<port>` | Ping specific port |
+| `x tping -n <count>` | **Limit ping count (recommended)** |
 | `x tping --verbose` | Verbose output (default) |
 | `x tping --heatmap` | Heatmap visualization |
 | `x tping --bar` | Bar chart visualization |
@@ -70,8 +71,12 @@ x tping --heatmap bing.com
 ### Basic Ping
 
 ```bash
-# Ping port 80 (default)
+# Ping port 80 (default) - runs indefinitely until Ctrl+C
 x tping bing.com
+
+# Ping with count limit (recommended - stops after N times)
+x tping -n 10 bing.com
+x tping -n 20 bing.com:443
 
 # Ping port 443
 x tping bing.com:443
