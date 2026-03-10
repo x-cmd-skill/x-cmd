@@ -4,11 +4,8 @@ description: |
   CLI for Google OSV database. Query vulnerabilities, 
   scan projects, generate SARIF reports.
   
-  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
-  https://x-cmd.com/install
-
-parent: x-cmd
-source: extensions/x-osv/SKILL.md
+  **Requires x-cmd**: Use x-cmd skill to install and use x-cmd,
+  see https://x-cmd.com/llms.txt . Note: load x-cmd with `. ~/.x-cmd.root/X` before use.
 
 license: Apache-2.0
 compatibility: POSIX Shell
