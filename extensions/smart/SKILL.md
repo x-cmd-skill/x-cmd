@@ -66,16 +66,6 @@ x smart -a /dev/sda
 x smart -H /dev/disk0
 ```
 
-### With AI Analysis
-
-```bash
-# Generate report with Gemini
-x smart -a /dev/disk0 | @gemini generate a report
-
-# Interactive discussion
-x smart -a /dev/disk0 | @gemini
-```
-
 ### Search Documentation
 
 ```bash
