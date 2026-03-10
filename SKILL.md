@@ -20,7 +20,7 @@ metadata:
   tags: [shell, cli, tools, package-management, portable]
   repository: https://github.com/x-cmd-skill/x-cmd
   website: https://www.x-cmd.com
-  install_doc: extensions/install.SKILL.md
+  install_doc: extensions/install-x-cmd.SKILL.md
 ---
 
 # x-cmd
@@ -29,7 +29,7 @@ metadata:
 
 ---
 
-## Not installed? → [extensions/install.SKILL.md](extensions/install.SKILL.md)
+## Not installed? → [extensions/install-x-cmd.SKILL.md](extensions/install-x-cmd.SKILL.md)
 
 ## China region users? → [extensions/china-acceleration.SKILL.md](extensions/china-acceleration.SKILL.md) Network Acceleration Guide
 
