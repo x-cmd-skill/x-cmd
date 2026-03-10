@@ -12,6 +12,7 @@ license: Apache-2.0
 compatibility: POSIX Shell
 
 metadata:
+  author: Li Junhao
   version: "0.0.1"
   category: x-cmd-extension
   tags: [x-cmd, network, ping, tcp, connectivity]

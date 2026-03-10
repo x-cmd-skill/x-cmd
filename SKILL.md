@@ -140,6 +140,7 @@ Entrance for AI agents.
 | [x route](extensions/x-route/SKILL.md) | Route table viewer with multiple formats |
 | [x tping](extensions/x-tping/SKILL.md) | TCP ping tool with visual output |
 | [x nets](extensions/x-nets/SKILL.md) | Enhanced netstat with caching and TSV/CSV output |
+| [x lsof](extensions/x-lsof/SKILL.md) | List open files with interactive UI and auto-download |
 
 ### Security Intelligence Tools
 

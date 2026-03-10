@@ -1,0 +1,7 @@
+(
+    local IFS=" "
+    for i in 
+    x npx clawhub publish  \
+        || return $?
+
+)
