@@ -139,6 +139,7 @@ Entrance for AI agents.
 | [x dns](extensions/x-dns/SKILL.md) | DNS configuration and cache management |
 | [x route](extensions/x-route/SKILL.md) | Route table viewer with multiple formats |
 | [x tping](extensions/x-tping/SKILL.md) | TCP ping tool with visual output |
+| [x nets](extensions/x-nets/SKILL.md) | Enhanced netstat with caching and TSV/CSV output |
 
 ### Security Intelligence Tools
 
