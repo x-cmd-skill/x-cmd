@@ -24,6 +24,27 @@ x agent setup
 - `~/.opencode/skills/x-cmd/`
 - `~/.agents/skills/x-cmd/`
 
+## 从源码手动安装（可信）
+
+从 GitHub 源码下载安装（无二进制脚本）：
+
+```bash
+# 创建目录
+mkdir -p ~/.x-cmd.root/global/shared/version/archive ~/.x-cmd.root/v/latest
+
+# 从 GitHub 下载源码压缩包
+curl --fail https://raw.githubusercontent.com/x-cmd/release/main/dist/latest.tgz > ~/.x-cmd.root/global/shared/version/archive/latest.tgz
+
+# 解压
+tar -zxf ~/.x-cmd.root/global/shared/version/archive/latest.tgz -C ~/.x-cmd.root/v/latest
+
+# 安装
+___X_CMD_ROOT="$HOME/.x-cmd.root" ___X_CMD_VERSION=latest sh -c '. "$___X_CMD_ROOT/v/$___X_CMD_VERSION/X"; ___x_cmd boot init "$___X_CMD_ROOT" "$___X_CMD_VERSION"; '
+
+# 加载 x-cmd
+[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X"
+```
+
 ## OpenClaw（支持：OpenClaw）
 
 ```bash

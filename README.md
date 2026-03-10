@@ -24,6 +24,27 @@ Installs to:
 - `~/.opencode/skills/x-cmd/`
 - `~/.agents/skills/x-cmd/`
 
+## Manual Install from Source (Trusted)
+
+Download and install from GitHub source (no binary scripts):
+
+```bash
+# Create directories
+mkdir -p ~/.x-cmd.root/global/shared/version/archive ~/.x-cmd.root/v/latest
+
+# Download source archive from GitHub
+curl --fail https://raw.githubusercontent.com/x-cmd/release/main/dist/latest.tgz > ~/.x-cmd.root/global/shared/version/archive/latest.tgz
+
+# Extract
+tar -zxf ~/.x-cmd.root/global/shared/version/archive/latest.tgz -C ~/.x-cmd.root/v/latest
+
+# Install
+___X_CMD_ROOT="$HOME/.x-cmd.root" ___X_CMD_VERSION=latest sh -c '. "$___X_CMD_ROOT/v/$___X_CMD_VERSION/X"; ___x_cmd boot init "$___X_CMD_ROOT" "$___X_CMD_VERSION"; '
+
+# Load x-cmd
+[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X"
+```
+
 ## For OpenClaw (Supports: OpenClaw)
 
 ```bash
