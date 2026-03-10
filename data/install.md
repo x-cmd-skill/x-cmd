@@ -22,7 +22,7 @@ metadata:
       recommendation: "acceptable with review"
       requires_review: true
     - name: install-script-auto
-      command: "curl -fsSL https://get.x-cmd.com | sh"
+      command: "curl -fsSL https://raw.githubusercontent.com/x-cmd/get/refs/heads/main/latest | sh"
       verification: checksum
       risk_level: high
       recommendation: "avoid in sensitive environments"
@@ -46,7 +46,7 @@ metadata:
 ## Security Warning
 
 This skill facilitates downloading and executing software from remote sources:
-- Install script from `https://get.x-cmd.com`
+- Install script from `https://raw.githubusercontent.com/x-cmd/get/refs/heads/main/latest`
 - Binary packages from `https://github.com/x-cmd/release`
 - Conda packages from `https://conda.prefix.dev`
 
@@ -78,7 +78,7 @@ brew install x-cmd
 
 ```bash
 # 1. Download install script
-curl -fsSL https://get.x-cmd.com > /tmp/x-cmd-install.sh
+curl -fsSL https://raw.githubusercontent.com/x-cmd/get/refs/heads/main/latest > /tmp/x-cmd-install.sh
 
 # 2. REVIEW the script content (critical step)
 cat /tmp/x-cmd-install.sh
@@ -101,7 +101,7 @@ sh /tmp/x-cmd-install.sh
 **⚠️ WARNING:** This executes remote code without manual review.
 
 ```bash
-curl -fsSL https://get.x-cmd.com | sh
+curl -fsSL https://raw.githubusercontent.com/x-cmd/get/refs/heads/main/latest | sh
 ```
 
 **Only use when:**
@@ -111,7 +111,7 @@ curl -fsSL https://get.x-cmd.com | sh
 
 **Security implications:**
 - ❌ No opportunity to review code before execution
-- ❌ Vulnerable to supply chain attacks if get.x-cmd.com is compromised
+- ❌ Vulnerable to supply chain attacks if raw.githubusercontent.com is compromised
 - ⚠️ Checksum verification happens AFTER initial script execution
 
 ---
@@ -138,7 +138,7 @@ curl -fsSL https://get.x-cmd.com | sh
 2. **If not installed, ask user:**
    > "x-cmd is not installed. To use this skill, please install it via:
    > - `brew install x-cmd` (recommended, signed)
-   > - Or download from https://get.x-cmd.com and review before executing
+   > - Or download from https://raw.githubusercontent.com/x-cmd/get/refs/heads/main/latest and review before executing
    > 
    > Shall I wait for you to install it, or would you like me to proceed with installation?"
 
@@ -166,7 +166,7 @@ x-cmd --version
 
 | Component | Source | Verification |
 |-----------|--------|--------------|
-| Install script | https://get.x-cmd.com | User review + HTTPS |
+| Install script | https://raw.githubusercontent.com/x-cmd/get/refs/heads/main/latest | User review + HTTPS |
 | Core binaries | https://github.com/x-cmd/release | SHA256 checksum |
 | Homebrew bottles | Homebrew official | Cryptographic signature |
 | Conda packages | https://conda.prefix.dev | Conda signature |
