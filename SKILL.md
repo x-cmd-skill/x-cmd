@@ -33,6 +33,8 @@ metadata:
 
 ## China region users? → [extensions/china-acceleration/SKILL.md](extensions/china-acceleration/SKILL.md) Network Acceleration Guide
 
+## Disk Health Check? → [extensions/smart/SKILL.md](extensions/smart/SKILL.md) SMART Monitor
+
 ---
 
 ## Run `x skill` to browse 200+ skills
