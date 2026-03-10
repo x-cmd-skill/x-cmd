@@ -142,6 +142,15 @@ Entrance for AI agents.
 | [x nets](extensions/x-nets/SKILL.md) | Enhanced netstat with caching and TSV/CSV output |
 | [x lsof](extensions/x-lsof/SKILL.md) | List open files with interactive UI and auto-download |
 
+### Terminal Customization
+
+| Module | Description |
+|--------|-------------|
+| [x theme](extensions/x-theme/SKILL.md) | Terminal theme manager (prompt customization) |
+| [x starship](extensions/x-starship/SKILL.md) | Starship.rs cross-shell prompt with themes |
+| [x ohmyposh](extensions/x-ohmyposh/SKILL.md) | Oh-My-Posh prompt theme engine |
+| [x font](extensions/x-font/SKILL.md) | Nerd Fonts installation and management |
+
 ### Security Intelligence Tools
 
 | Module | Description |
