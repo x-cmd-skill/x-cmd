@@ -97,4 +97,4 @@ x env use jq nodejs python3
 
 ---
 
-*版本: 0.0.5 | 协议: Apache-2.0*
+*版本: 0.0.6 | 协议: Apache-2.0*
