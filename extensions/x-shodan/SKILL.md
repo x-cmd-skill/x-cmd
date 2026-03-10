@@ -1,5 +1,5 @@
 ---
-name: x-cmd-shodan
+name: x-shodan
 description: |
   Shodan CLI for searching Internet-connected devices.
   Host intel, DNS tools, network scanning, alerts.

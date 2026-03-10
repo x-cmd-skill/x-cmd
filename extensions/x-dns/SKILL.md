@@ -1,5 +1,5 @@
 ---
-name: x-cmd-dns
+name: x-dns
 description: |
   DNS configuration management utilities.
   View current DNS settings, list available DNS servers,

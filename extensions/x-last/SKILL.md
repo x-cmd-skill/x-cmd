@@ -1,5 +1,5 @@
 ---
-name: x-cmd-last
+name: x-last
 description: |
   Enhanced `last` command with CSV, JSON, tree view, and 
   interactive UI for viewing login history.

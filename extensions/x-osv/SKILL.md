@@ -1,5 +1,5 @@
 ---
-name: x-cmd-osv
+name: x-osv
 description: |
   CLI for Google OSV database. Query vulnerabilities, 
   scan projects, generate SARIF reports.

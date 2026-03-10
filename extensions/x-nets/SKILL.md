@@ -1,5 +1,5 @@
 ---
-name: x-cmd-nets
+name: x-nets
 description: |
   Enhanced netstat module with cached data and structured output.
   View network connections, routing tables, and interface statistics

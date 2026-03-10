@@ -1,5 +1,5 @@
 ---
-name: x-cmd-mankier
+name: x-mankier
 description: |
   Search and browse man pages from ManKier.com.
   Command line interface for ManKier man page repository.

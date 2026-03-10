@@ -1,5 +1,5 @@
 ---
-name: x-cmd-cpu
+name: x-cpu
 description: |
   Display CPU information and detect system endianness.
   Shows model, cores, frequency, vendor, cache size.

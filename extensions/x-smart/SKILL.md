@@ -1,5 +1,5 @@
 ---
-name: x-cmd-smart
+name: x-smart
 description: |
   SMART disk health monitoring tool. Check disk health,
   temperature, and attributes using smartctl.

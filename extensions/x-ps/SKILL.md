@@ -1,5 +1,5 @@
 ---
-name: x-cmd-ps
+name: x-ps
 description: |
   Enhanced `ps` process viewer with interactive UI, fzf support, 
   AI filtering, and CSV/JSON/TSV output formats.

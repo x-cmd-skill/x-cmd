@@ -1,7 +1,22 @@
 (
     local IFS=" "
-    for i in 
-    x npx clawhub publish  \
-        || return $?
+    {
+        ___x_cmd_cd0 "$(x wsroot)/extensions"
+        find . -name SKILL.md
+    } | {
+        while read -r fp; do
+            line="${fp%/*}"
+            line="${line#*/}"
 
+            version="$(<"$fp" grep "version:" | awk '{print $NF }')"
+            version="${version#'"'}"
+            version="${version%'"'}"
+
+            x npx clawhub publish  \
+                --slug "$line"     \
+                --name "$line"     \
+                --tags "$version"     \
+            || return $?
+        done
+    }
 )

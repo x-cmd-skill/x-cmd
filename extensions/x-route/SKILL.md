@@ -1,5 +1,5 @@
 ---
-name: x-cmd-route
+name: x-route
 description: |
   Route table viewer with multiple output formats.
   Display network routing table in CSV, TSV, or raw format.

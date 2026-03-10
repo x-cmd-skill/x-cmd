@@ -1,5 +1,5 @@
 ---
-name: x-cmd-kev
+name: x-kev
 description: |
   CISA Known Exploited Vulnerabilities (KEV) catalog.
   List actively exploited vulnerabilities prioritized by CISA.

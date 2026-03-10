@@ -1,5 +1,5 @@
 ---
-name: x-cmd-arp
+name: x-arp
 description: |
   Display ARP cache table with MAC vendor lookup and suspicious 
   entry detection. Supports CSV, TSV, and TUI output.

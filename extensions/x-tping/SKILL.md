@@ -1,5 +1,5 @@
 ---
-name: x-cmd-tping
+name: x-tping
 description: |
   TCP ping tool for testing connectivity to TCP ports.
   Uses TCP protocol with curl to establish connections.

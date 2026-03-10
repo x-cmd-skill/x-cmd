@@ -1,5 +1,5 @@
 ---
-name: x-cmd-scorecard
+name: x-scorecard
 description: |
   OpenSSF Scorecard for assessing open source project security.
   Check security best practices and compliance.

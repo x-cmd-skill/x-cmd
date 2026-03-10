@@ -1,5 +1,5 @@
 ---
-name: x-cmd-uptime
+name: x-uptime
 description: |
   Enhanced `uptime` with structured YAML output showing 
   uptime, users, and 1/5/15-minute load averages.

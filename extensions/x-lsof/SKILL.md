@@ -1,5 +1,5 @@
 ---
-name: x-cmd-lsof
+name: x-lsof
 description: |
   Enhanced lsof (List Open Files) with interactive UI and structured output.
   View open files, network connections, and processes.

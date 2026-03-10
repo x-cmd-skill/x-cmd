@@ -1,5 +1,5 @@
 ---
-name: x-cmd-uname
+name: x-uname
 description: |
   Enhanced `uname` command with colorized, structured output.
   Shows hostname, OS, kernel, architecture.

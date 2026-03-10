@@ -1,5 +1,5 @@
 ---
-name: x-cmd-df
+name: x-df
 description: |
   Enhanced `df` combining disk usage and mount info. 
   Supports CSV, TSV, and TUI with filesystem type detection.
