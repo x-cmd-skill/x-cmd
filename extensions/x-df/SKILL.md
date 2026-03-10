@@ -1,3 +1,24 @@
+---
+name: x-cmd-df
+description: |
+  Enhanced `df` combining disk usage and mount info. 
+  Supports CSV, TSV, and TUI with filesystem type detection.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-df/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, system, df, disk, storage]
+---
+
 # x df - Disk Free Space Viewer
 
 > Enhanced `df` command combining `df` and `mount` output with multiple formats.

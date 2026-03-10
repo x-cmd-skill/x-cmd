@@ -1,3 +1,24 @@
+---
+name: x-cmd-smart
+description: |
+  SMART disk health monitoring tool. Check disk health,
+  temperature, and attributes using smartctl.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-smart/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, system, smart, disk, health]
+---
+
 # x smart - Disk Health Monitor
 
 > SMART (Self-Monitoring, Analysis, and Reporting Technology) disk health checking tool.

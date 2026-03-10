@@ -1,3 +1,24 @@
+---
+name: x-cmd-uptime
+description: |
+  Enhanced `uptime` with structured YAML output showing 
+  uptime, users, and 1/5/15-minute load averages.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-uptime/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, system, uptime, load]
+---
+
 # x uptime - System Uptime and Load
 
 > Enhanced `uptime` command with structured YAML output and cross-platform support.

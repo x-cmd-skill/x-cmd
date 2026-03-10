@@ -1,3 +1,24 @@
+---
+name: x-cmd-ps
+description: |
+  Enhanced `ps` process viewer with interactive UI, fzf support, 
+  AI filtering, and CSV/JSON/TSV output formats.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-ps/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, process, ps, monitoring, fzf]
+---
+
 # x ps - Process Status Viewer
 
 > Enhanced process viewer with interactive UI, multiple output formats, and AI-powered filtering.

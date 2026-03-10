@@ -1,3 +1,24 @@
+---
+name: x-cmd-shodan
+description: |
+  Shodan CLI for searching Internet-connected devices.
+  Host intel, DNS tools, network scanning, alerts.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-shodan/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, security, shodan, reconnaissance, network]
+---
+
 # x shodan - Internet Search Engine
 
 > Shodan CLI - Search engine for Internet-connected devices and systems.

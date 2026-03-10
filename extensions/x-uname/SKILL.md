@@ -1,3 +1,24 @@
+---
+name: x-cmd-uname
+description: |
+  Enhanced `uname` command with colorized, structured output.
+  Shows hostname, OS, kernel, architecture.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-uname/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, system, uname, sysinfo]
+---
+
 # x uname - System Information
 
 > Enhanced `uname` command with colorized, structured output.

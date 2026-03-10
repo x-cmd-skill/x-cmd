@@ -1,3 +1,24 @@
+---
+name: x-cmd-mankier
+description: |
+  Search and browse man pages from ManKier.com.
+  Command line interface for ManKier man page repository.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-mankier/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, man, manual, documentation, mankier]
+---
+
 # x mankier - Man Page Search & Browser
 
 > Search and browse man pages from ManKier.com via command line.

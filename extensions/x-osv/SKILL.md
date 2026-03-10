@@ -1,3 +1,24 @@
+---
+name: x-cmd-osv
+description: |
+  CLI for Google OSV database. Query vulnerabilities, 
+  scan projects, generate SARIF reports.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-osv/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, security, vulnerability, osv, scanner]
+---
+
 # x osv - Open Source Vulnerabilities
 
 > CLI for Google OSV - Open Source Vulnerabilities database and scanner.

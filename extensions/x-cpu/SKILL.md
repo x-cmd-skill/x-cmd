@@ -1,3 +1,24 @@
+---
+name: x-cmd-cpu
+description: |
+  Display CPU information and detect system endianness.
+  Shows model, cores, frequency, vendor, cache size.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-cpu/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, system, cpu, hardware]
+---
+
 # x cpu - CPU Information
 
 > Display CPU information and detect system endianness.

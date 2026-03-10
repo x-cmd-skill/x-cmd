@@ -1,3 +1,24 @@
+---
+name: x-cmd-scorecard
+description: |
+  OpenSSF Scorecard for assessing open source project security.
+  Check security best practices and compliance.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-scorecard/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, security, scorecard, openssf, audit]
+---
+
 # x scorecard - OpenSSF Security Scorecard
 
 > OpenSSF Scorecard - Security health assessment for open source projects.

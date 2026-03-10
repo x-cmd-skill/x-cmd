@@ -1,3 +1,24 @@
+---
+name: x-cmd-arp
+description: |
+  Display ARP cache table with MAC vendor lookup and suspicious 
+  entry detection. Supports CSV, TSV, and TUI output.
+  
+  **Requires x-cmd**: Run `. ~/.x-cmd.root/X` first or install from
+  https://x-cmd.com/install
+
+parent: x-cmd
+source: extensions/x-arp/SKILL.md
+
+license: Apache-2.0
+compatibility: POSIX Shell
+
+metadata:
+  version: "0.0.1"
+  category: x-cmd-extension
+  tags: [x-cmd, network, arp, security]
+---
+
 # x arp - ARP Cache Table Viewer
 
 > Display and inspect the local system's ARP cache table with multiple output formats.
