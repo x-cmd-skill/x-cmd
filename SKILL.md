@@ -31,6 +31,8 @@ metadata:
 
 ## Not installed? → [data/install.md](data/install.md)
 
+## 中国区用户？ → [data/china-acceleration.md](data/china-acceleration.md) 网络加速配置
+
 ---
 
 ## Run `x skill` to browse 200+ skills
