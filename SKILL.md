@@ -33,7 +33,9 @@ metadata:
 
 ## China region users? → [extensions/china-acceleration/SKILL.md](extensions/china-acceleration/SKILL.md) Network Acceleration Guide
 
-## Disk Health Check? → [extensions/smart/SKILL.md](extensions/smart/SKILL.md) SMART Monitor
+## Disk Health Check? → [extensions/x-smart/SKILL.md](extensions/x-smart/SKILL.md) SMART Monitor
+
+## Man Page Search? → [extensions/x-mankier/SKILL.md](extensions/x-mankier/SKILL.md) ManKier CLI
 
 ---
 
