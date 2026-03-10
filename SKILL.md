@@ -39,29 +39,6 @@ metadata:
 
 ---
 
-## System Information Modules
-
-| Module | Description |
-|--------|-------------|
-| [x uname](extensions/x-uname/SKILL.md) | System info (hostname, kernel, arch) |
-| [x ps](extensions/x-ps/SKILL.md) | Process viewer with interactive UI |
-| [x arp](extensions/x-arp/SKILL.md) | ARP cache table viewer |
-| [x last](extensions/x-last/SKILL.md) | User login history |
-| [x uptime](extensions/x-uptime/SKILL.md) | System uptime and load averages |
-| [x df](extensions/x-df/SKILL.md) | Disk usage (df + mount combined) |
-| [x cpu](extensions/x-cpu/SKILL.md) | CPU information and endianness detection |
-
-## Security Intelligence Tools
-
-| Module | Description |
-|--------|-------------|
-| [x osv](extensions/x-osv/SKILL.md) | Open Source Vulnerabilities (Google OSV) |
-| [x shodan](extensions/x-shodan/SKILL.md) | Internet-connected device search engine |
-| [x scorecard](extensions/x-scorecard/SKILL.md) | OpenSSF project security scorecard |
-| [x kev](extensions/x-kev/SKILL.md) | CISA Known Exploited Vulnerabilities |
-
----
-
 ## Run `x skill` to browse 200+ skills
 
 ```bash
@@ -138,3 +115,28 @@ x pixi search yml
 ## More: https://x-cmd.com/llms.txt
 
 Entrance for AI agents.
+
+---
+
+## Module Reference
+
+### System Information Modules
+
+| Module | Description |
+|--------|-------------|
+| [x uname](extensions/x-uname/SKILL.md) | System info (hostname, kernel, arch) |
+| [x ps](extensions/x-ps/SKILL.md) | Process viewer with interactive UI |
+| [x arp](extensions/x-arp/SKILL.md) | ARP cache table viewer |
+| [x last](extensions/x-last/SKILL.md) | User login history |
+| [x uptime](extensions/x-uptime/SKILL.md) | System uptime and load averages |
+| [x df](extensions/x-df/SKILL.md) | Disk usage (df + mount combined) |
+| [x cpu](extensions/x-cpu/SKILL.md) | CPU information and endianness detection |
+
+### Security Intelligence Tools
+
+| Module | Description |
+|--------|-------------|
+| [x osv](extensions/x-osv/SKILL.md) | Open Source Vulnerabilities (Google OSV) |
+| [x shodan](extensions/x-shodan/SKILL.md) | Internet-connected device search engine |
+| [x scorecard](extensions/x-scorecard/SKILL.md) | OpenSSF project security scorecard |
+| [x kev](extensions/x-kev/SKILL.md) | CISA Known Exploited Vulnerabilities |
