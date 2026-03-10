@@ -132,6 +132,14 @@ Entrance for AI agents.
 | [x df](extensions/x-df/SKILL.md) | Disk usage (df + mount combined) |
 | [x cpu](extensions/x-cpu/SKILL.md) | CPU information and endianness detection |
 
+### Network Utilities
+
+| Module | Description |
+|--------|-------------|
+| [x dns](extensions/x-dns/SKILL.md) | DNS configuration and cache management |
+| [x route](extensions/x-route/SKILL.md) | Route table viewer with multiple formats |
+| [x tping](extensions/x-tping/SKILL.md) | TCP ping tool with visual output |
+
 ### Security Intelligence Tools
 
 | Module | Description |
