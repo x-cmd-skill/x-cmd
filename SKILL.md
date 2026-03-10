@@ -31,7 +31,7 @@ metadata:
 
 ## Not installed? → [extensions/install-x-cmd.SKILL.md](extensions/install-x-cmd.SKILL.md)
 
-## China region users? → [extensions/china-acceleration.SKILL.md](extensions/china-acceleration.SKILL.md) Network Acceleration Guide
+## China region users? → [extensions/china-acceleration/SKILL.md](extensions/china-acceleration/SKILL.md) Network Acceleration Guide
 
 ---
 
