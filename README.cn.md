@@ -5,7 +5,7 @@
 ## 自然语言安装（支持：OpenClaw, Claude Code, Codex, OpenCode）
 
 ```text
-"请帮我安装 x-cmd skills，参考 https://x-cmd.com/llms.txt"
+请帮我安装 x-cmd skills，参考 https://x-cmd.com/llms.txt
 ```
 
 AI 将自动处理安装。

@@ -5,7 +5,7 @@
 ## Natural Language (Supports: OpenClaw, Claude Code, Codex, OpenCode)
 
 ```text
-"Please help me install x-cmd skills, refer to https://x-cmd.com/llms.txt"
+Please help me install x-cmd skills, refer to https://x-cmd.com/llms.txt
 ```
 
 The AI will handle the installation automatically.
