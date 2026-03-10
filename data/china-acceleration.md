@@ -40,6 +40,19 @@ x websrc testcn
 | `x websrc set net` | Same as `inet` |
 | `x websrc get` | View current configuration |
 
+Once configured, x-cmd will use **China region hosted network** for accelerated distribution, covering the following resources:
+
+| Module | Description |
+|--------|-------------|
+| `x env use <pkg>` | Software package download and installation |
+| `x theme` | Theme resources download |
+| `x advise` | Command completion data |
+| `x tldr` | TLDR help documents |
+| `x ccal` | Calendar system data |
+| `x pkg` | All module resource downloads |
+
+> In short, all resources that x-cmd needs to download remotely (scripts, data, documents, etc.) will be accelerated through the China region channel.
+
 ---
 
 ## System Package Manager Mirrors
